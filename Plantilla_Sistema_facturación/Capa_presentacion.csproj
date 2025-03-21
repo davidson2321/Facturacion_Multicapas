@@ -60,29 +60,11 @@
     <Compile Include="frmAdminSeguridad.Designer.cs">
       <DependentUpon>frmAdminSeguridad.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmEditarRolEmpleado.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmEditarRolEmpleado.Designer.cs">
-      <DependentUpon>frmEditarRolEmpleado.cs</DependentUpon>
-    </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
     <Compile Include="frmAyuda.cs">
       <SubType>Form</SubType>
@@ -114,11 +96,11 @@
     <Compile Include="frmEditarCliente.Designer.cs">
       <DependentUpon>frmEditarCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmEditarEmpleado.cs">
+    <Compile Include="frmEmpleados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmEditarEmpleado.Designer.cs">
-      <DependentUpon>frmEditarEmpleado.cs</DependentUpon>
+    <Compile Include="frmEmpleados.Designer.cs">
+      <DependentUpon>frmEmpleados.cs</DependentUpon>
     </Compile>
     <Compile Include="frmEditarProducto.cs">
       <SubType>Form</SubType>
@@ -162,11 +144,11 @@
     <Compile Include="frmListFacturas.Designer.cs">
       <DependentUpon>frmListFacturas.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmListRolEmpleados.cs">
+    <Compile Include="frmListaRoles.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmListRolEmpleados.Designer.cs">
-      <DependentUpon>frmListRolEmpleados.cs</DependentUpon>
+    <Compile Include="frmListaRoles.Designer.cs">
+      <DependentUpon>frmListaRoles.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmPrincipal.cs">
       <SubType>Form</SubType>
@@ -180,11 +162,11 @@
     <Compile Include="FrmProductos.Designer.cs">
       <DependentUpon>FrmProductos.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmRolEmpleado.cs">
+    <Compile Include="frmRoles.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmRolEmpleado.Designer.cs">
-      <DependentUpon>frmRolEmpleado.cs</DependentUpon>
+    <Compile Include="frmRoles.Designer.cs">
+      <DependentUpon>frmRoles.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -194,14 +176,8 @@
     <EmbeddedResource Include="frmAdminSeguridad.resx">
       <DependentUpon>frmAdminSeguridad.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmEditarRolEmpleado.resx">
-      <DependentUpon>frmEditarRolEmpleado.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAyuda.resx">
       <DependentUpon>frmAyuda.cs</DependentUpon>
@@ -218,8 +194,8 @@
     <EmbeddedResource Include="frmEditarCliente.resx">
       <DependentUpon>frmEditarCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmEditarEmpleado.resx">
-      <DependentUpon>frmEditarEmpleado.cs</DependentUpon>
+    <EmbeddedResource Include="frmEmpleados.resx">
+      <DependentUpon>frmEmpleados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEditarProducto.resx">
       <DependentUpon>frmEditarProducto.cs</DependentUpon>
@@ -242,8 +218,8 @@
     <EmbeddedResource Include="frmListFacturas.resx">
       <DependentUpon>frmListFacturas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmListRolEmpleados.resx">
-      <DependentUpon>frmListRolEmpleados.cs</DependentUpon>
+    <EmbeddedResource Include="frmListaRoles.resx">
+      <DependentUpon>frmListaRoles.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
@@ -251,8 +227,8 @@
     <EmbeddedResource Include="FrmProductos.resx">
       <DependentUpon>FrmProductos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmRolEmpleado.resx">
-      <DependentUpon>frmRolEmpleado.cs</DependentUpon>
+    <EmbeddedResource Include="frmRoles.resx">
+      <DependentUpon>frmRoles.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

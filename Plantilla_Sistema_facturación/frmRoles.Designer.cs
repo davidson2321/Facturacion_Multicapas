@@ -1,6 +1,6 @@
 ﻿namespace Plantilla_Sistema_facturación
 {
-    partial class frmEditarRolEmpleado
+    partial class frmRoles
     {
         /// <summary>
         /// Required designer variable.
@@ -28,11 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.txtIdCliente = new System.Windows.Forms.TextBox();
             this.txtDescripcion = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.BtnSalir = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btnActualizar = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.MensajeError = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.MensajeError)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -46,7 +49,7 @@
             // 
             // txtIdCliente
             // 
-            this.txtIdCliente.Location = new System.Drawing.Point(77, 131);
+            this.txtIdCliente.Location = new System.Drawing.Point(108, 118);
             this.txtIdCliente.Name = "txtIdCliente";
             this.txtIdCliente.Size = new System.Drawing.Size(100, 22);
             this.txtIdCliente.TabIndex = 10;
@@ -55,14 +58,14 @@
             // 
             this.txtDescripcion.Depth = 0;
             this.txtDescripcion.Hint = "Descripción";
-            this.txtDescripcion.Location = new System.Drawing.Point(77, 190);
+            this.txtDescripcion.Location = new System.Drawing.Point(108, 173);
             this.txtDescripcion.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.PasswordChar = '\0';
             this.txtDescripcion.SelectedText = "";
             this.txtDescripcion.SelectionLength = 0;
             this.txtDescripcion.SelectionStart = 0;
-            this.txtDescripcion.Size = new System.Drawing.Size(634, 28);
+            this.txtDescripcion.Size = new System.Drawing.Size(313, 28);
             this.txtDescripcion.TabIndex = 11;
             this.txtDescripcion.UseSystemPasswordChar = false;
             // 
@@ -92,24 +95,28 @@
             this.btnActualizar.UseVisualStyleBackColor = true;
             this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
-            // frmEditarRolEmpleado
+            // MensajeError
+            // 
+            this.MensajeError.ContainerControl = this;
+            // 
+            // frmRoles
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.BtnSalir);
-            this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.txtDescripcion);
             this.Controls.Add(this.txtIdCliente);
+            this.Controls.Add(this.BtnSalir);
+            this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.lblTitulo);
-            this.Name = "frmEditarRolEmpleado";
-            this.Text = "frmEditarRolEmpleado";
-            this.Load += new System.EventHandler(this.frmEditarRolEmpleado_Load);
+            this.Name = "frmRoles";
+            this.Text = "frmRoles";
+            this.Load += new System.EventHandler(this.frmRoles_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.MensajeError)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
-
         #endregion
 
         private System.Windows.Forms.Label lblTitulo;
@@ -117,5 +124,6 @@
         private MaterialSkin.Controls.MaterialSingleLineTextField txtDescripcion;
         private MaterialSkin.Controls.MaterialRaisedButton BtnSalir;
         private MaterialSkin.Controls.MaterialRaisedButton btnActualizar;
+        private System.Windows.Forms.ErrorProvider MensajeError;
     }
 }

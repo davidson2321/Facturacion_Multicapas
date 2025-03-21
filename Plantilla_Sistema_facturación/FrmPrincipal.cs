@@ -107,7 +107,7 @@ namespace Plantilla_Sistema_facturación
 
         private void btnRolEmpleados_Click(object sender, EventArgs e)
         {
-            frmListRolEmpleados frmRolEmpleado = new frmListRolEmpleados();
+            frmListaRoles frmRolEmpleado = new frmListaRoles();
             AbrirForm(frmRolEmpleado);
         }
 

@@ -1,6 +1,6 @@
 ﻿namespace Plantilla_Sistema_facturación
 {
-    partial class frmListRolEmpleados
+    partial class frmListaRoles
     {
         /// <summary>
         /// Required designer variable.

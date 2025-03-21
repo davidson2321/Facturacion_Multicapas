@@ -47,7 +47,7 @@ namespace Plantilla_Sistema_facturación
 
         private void BtnNuevo_Click(object sender, EventArgs e)
         {
-            frmEditarEmpleado Empleado = new frmEditarEmpleado();
+            frmEmpleados Empleado = new frmEmpleados();
             Empleado.IdEmpleado = 0;
 
             Empleado.ShowDialog();
@@ -69,7 +69,7 @@ namespace Plantilla_Sistema_facturación
             if (dgEmpleados.Columns[e.ColumnIndex].Name == "btnEditar")
             {
                 int posActual = dgEmpleados.CurrentRow.Index;
-                frmEditarEmpleado Empleado = new frmEditarEmpleado();
+                frmEmpleados Empleado = new frmEmpleados();
                 Empleado.IdEmpleado = int.Parse(dgEmpleados[0, posActual].Value.ToString());
                 Empleado.ShowDialog();
             }

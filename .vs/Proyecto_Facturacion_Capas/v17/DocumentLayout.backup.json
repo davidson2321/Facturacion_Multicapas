@@ -3,112 +3,80 @@
   "WorkspaceRootPath": "D:\\Facturacion_Multicapas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|d:\\facturacion_multicapas\\plantilla_sistema_facturaci\u00F3n\\frmlistrolempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmlistrolempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|d:\\facturacion_multicapas\\plantilla_sistema_facturaci\u00F3n\\frmrolempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmrolempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|d:\\facturacion_multicapas\\plantilla_sistema_facturaci\u00F3n\\frmeditarrolempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmeditarrolempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Plantilla_Sistema_facturaci\u00F3n.csproj|D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmListRolEmpleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Plantilla_Sistema_facturaci\u00F3n.csproj|solutionrelative:Plantilla_Sistema_facturaci\u00F3n\\frmListRolEmpleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|d:\\facturacion_multicapas\\plantilla_sistema_facturaci\u00F3n\\frmlistrolempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmlistrolempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|d:\\facturacion_multicapas\\plantilla_sistema_facturaci\u00F3n\\frmeditarrolempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmeditarrolempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Plantilla_Sistema_facturaci\u00F3n.csproj|D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmEditarRolEmpleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Plantilla_Sistema_facturaci\u00F3n.csproj|solutionrelative:Plantilla_Sistema_facturaci\u00F3n\\frmEditarRolEmpleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|d:\\facturacion_multicapas\\plantilla_sistema_facturaci\u00F3n\\frmadminseguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmadminseguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|d:\\facturacion_multicapas\\plantilla_sistema_facturaci\u00F3n\\frmadminseguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmadminseguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7927AE45-0E38-4CD9-993A-5D5FFD3AAE6B}|Capa_LogicaDeNegocios\\Capa_LogicaDeNegocios.csproj|d:\\facturacion_multicapas\\capa_logicadenegocios\\cls_seguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7927AE45-0E38-4CD9-993A-5D5FFD3AAE6B}|Capa_LogicaDeNegocios\\Capa_LogicaDeNegocios.csproj|D:\\Facturacion_Multicapas\\capa_logicadenegocios\\cls_seguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7927AE45-0E38-4CD9-993A-5D5FFD3AAE6B}|Capa_LogicaDeNegocios\\Capa_LogicaDeNegocios.csproj|solutionrelative:capa_logicadenegocios\\cls_seguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|d:\\facturacion_multicapas\\plantilla_sistema_facturaci\u00F3n\\frmeditarempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmeditarempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|D:\\Facturacion_Multicapas\\plantilla_sistema_facturaci\u00F3n\\frmempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Plantilla_Sistema_facturaci\u00F3n.csproj|D:\\Facturacion_Multicapas\\plantilla_sistema_facturaci\u00F3n\\frmadminseguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Plantilla_Sistema_facturaci\u00F3n.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmadminseguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|D:\\Facturacion_Multicapas\\plantilla_sistema_facturaci\u00F3n\\frmadminseguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmadminseguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|d:\\facturacion_multicapas\\plantilla_sistema_facturaci\u00F3n\\frmeditarempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmeditarempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|D:\\Facturacion_Multicapas\\plantilla_sistema_facturaci\u00F3n\\frmempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7927AE45-0E38-4CD9-993A-5D5FFD3AAE6B}|Capa_LogicaDeNegocios\\Capa_LogicaDeNegocios.csproj|d:\\facturacion_multicapas\\capa_logicadenegocios\\cls_empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7927AE45-0E38-4CD9-993A-5D5FFD3AAE6B}|Capa_LogicaDeNegocios\\Capa_LogicaDeNegocios.csproj|solutionrelative:capa_logicadenegocios\\cls_empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6EDB64F-9B2B-4D0F-960C-716ACC2C872E}|Capa_AccesoDatos\\Capa_AccesoDatos.csproj|d:\\facturacion_multicapas\\capa_accesodatos\\cls_acceso_datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6EDB64F-9B2B-4D0F-960C-716ACC2C872E}|Capa_AccesoDatos\\Capa_AccesoDatos.csproj|solutionrelative:capa_accesodatos\\cls_acceso_datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|d:\\facturacion_multicapas\\plantilla_sistema_facturaci\u00F3n\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|d:\\facturacion_multicapas\\plantilla_sistema_facturaci\u00F3n\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7927AE45-0E38-4CD9-993A-5D5FFD3AAE6B}|Capa_LogicaDeNegocios\\Capa_LogicaDeNegocios.csproj|d:\\facturacion_multicapas\\capa_logicadenegocios\\validar_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7927AE45-0E38-4CD9-993A-5D5FFD3AAE6B}|Capa_LogicaDeNegocios\\Capa_LogicaDeNegocios.csproj|solutionrelative:capa_logicadenegocios\\validar_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|d:\\facturacion_multicapas\\plantilla_sistema_facturaci\u00F3n\\frmlistempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|D:\\Facturacion_Multicapas\\plantilla_sistema_facturaci\u00F3n\\frmlistempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmlistempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Plantilla_Sistema_facturaci\u00F3n.csproj|D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\FrmClientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Plantilla_Sistema_facturaci\u00F3n.csproj|solutionrelative:Plantilla_Sistema_facturaci\u00F3n\\FrmClientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|D:\\Facturacion_Multicapas\\plantilla_sistema_facturaci\u00F3n\\frmlistempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmlistempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|d:\\facturacion_multicapas\\plantilla_sistema_facturaci\u00F3n\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|D:\\Facturacion_Multicapas\\plantilla_sistema_facturaci\u00F3n\\frmroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Plantilla_Sistema_facturaci\u00F3n.csproj|D:\\Facturacion_Multicapas\\plantilla_sistema_facturaci\u00F3n\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Plantilla_Sistema_facturaci\u00F3n.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|D:\\Facturacion_Multicapas\\plantilla_sistema_facturaci\u00F3n\\frmlistaroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmlistaroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|d:\\facturacion_multicapas\\plantilla_sistema_facturaci\u00F3n\\acceso_datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\acceso_datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|d:\\facturacion_multicapas\\plantilla_sistema_facturaci\u00F3n\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Plantilla_Sistema_facturaci\u00F3n.csproj|D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\FrmPrincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Plantilla_Sistema_facturaci\u00F3n.csproj|solutionrelative:Plantilla_Sistema_facturaci\u00F3n\\FrmPrincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|D:\\Facturacion_Multicapas\\plantilla_sistema_facturaci\u00F3n\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Plantilla_Sistema_facturaci\u00F3n.csproj|D:\\Facturacion_Multicapas\\plantilla_sistema_facturaci\u00F3n\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Plantilla_Sistema_facturaci\u00F3n.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Plantilla_Sistema_facturaci\u00F3n.csproj|D:\\Facturacion_Multicapas\\plantilla_sistema_facturaci\u00F3n\\frmeditarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Plantilla_Sistema_facturaci\u00F3n.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmeditarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|D:\\Facturacion_Multicapas\\plantilla_sistema_facturaci\u00F3n\\frmroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|D:\\Facturacion_Multicapas\\plantilla_sistema_facturaci\u00F3n\\frmlistaroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmlistaroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7927AE45-0E38-4CD9-993A-5D5FFD3AAE6B}|Capa_LogicaDeNegocios\\Capa_LogicaDeNegocios.csproj|D:\\Facturacion_Multicapas\\capa_logicadenegocios\\cls_roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7927AE45-0E38-4CD9-993A-5D5FFD3AAE6B}|Capa_LogicaDeNegocios\\Capa_LogicaDeNegocios.csproj|solutionrelative:capa_logicadenegocios\\cls_roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7927AE45-0E38-4CD9-993A-5D5FFD3AAE6B}|Capa_LogicaDeNegocios\\Capa_LogicaDeNegocios.csproj|D:\\Facturacion_Multicapas\\capa_logicadenegocios\\cls_empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7927AE45-0E38-4CD9-993A-5D5FFD3AAE6B}|Capa_LogicaDeNegocios\\Capa_LogicaDeNegocios.csproj|solutionrelative:capa_logicadenegocios\\cls_empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EDB64F-9B2B-4D0F-960C-716ACC2C872E}|Capa_AccesoDatos\\Capa_AccesoDatos.csproj|D:\\Facturacion_Multicapas\\capa_accesodatos\\cls_acceso_datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6EDB64F-9B2B-4D0F-960C-716ACC2C872E}|Capa_AccesoDatos\\Capa_AccesoDatos.csproj|solutionrelative:capa_accesodatos\\cls_acceso_datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|D:\\Facturacion_Multicapas\\plantilla_sistema_facturaci\u00F3n\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Plantilla_Sistema_facturaci\u00F3n.csproj|D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\FrmPrincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Plantilla_Sistema_facturaci\u00F3n.csproj|solutionrelative:Plantilla_Sistema_facturaci\u00F3n\\FrmPrincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|D:\\Facturacion_Multicapas\\plantilla_sistema_facturaci\u00F3n\\acceso_datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C037FC8D-1498-4980-8B9F-206C2F481F29}|Plantilla_Sistema_facturaci\u00F3n\\Capa_presentacion.csproj|solutionrelative:plantilla_sistema_facturaci\u00F3n\\acceso_datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -130,182 +98,163 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmEditarRolEmpleado.cs [Design]",
-              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmEditarRolEmpleado.cs",
-              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\frmEditarRolEmpleado.cs",
-              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmEditarRolEmpleado.cs [Design]",
-              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\frmEditarRolEmpleado.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "frmEmpleados.cs",
+              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmEmpleados.cs",
+              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\frmEmpleados.cs",
+              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmEmpleados.cs",
+              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\frmEmpleados.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwEsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T13:58:37.705Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmRolEmpleado.cs [Design]",
-              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmRolEmpleado.cs",
-              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\frmRolEmpleado.cs",
-              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmRolEmpleado.cs [Design]",
-              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\frmRolEmpleado.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T13:58:14.75Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmEditarRolEmpleado.cs",
-              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmEditarRolEmpleado.cs",
-              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\frmEditarRolEmpleado.cs",
-              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmEditarRolEmpleado.cs",
-              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\frmEditarRolEmpleado.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAEwEsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T13:57:47.412Z",
+              "WhenOpened": "2025-03-21T17:36:37.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmListRolEmpleados.cs",
-              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmListRolEmpleados.cs",
-              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\frmListRolEmpleados.cs",
-              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmListRolEmpleados.cs",
-              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\frmListRolEmpleados.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "frmAdminSeguridad.cs",
+              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmAdminSeguridad.cs",
+              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\frmAdminSeguridad.cs",
+              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmAdminSeguridad.cs",
+              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\frmAdminSeguridad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T13:57:06.785Z",
+              "WhenOpened": "2025-03-21T16:37:00.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmListRolEmpleados.cs [Design]",
-              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmListRolEmpleados.cs",
-              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\frmListRolEmpleados.cs",
-              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmListRolEmpleados.cs [Design]",
-              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\frmListRolEmpleados.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "frmEmpleados.cs [Design]",
+              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmEmpleados.cs",
+              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\frmEmpleados.cs",
+              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmEmpleados.cs [Design]",
+              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\frmEmpleados.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T13:57:07.791Z",
+              "WhenOpened": "2025-03-21T17:36:49.636Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "frmAdminSeguridad.cs [Design]",
               "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmAdminSeguridad.cs",
               "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\frmAdminSeguridad.cs",
               "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmAdminSeguridad.cs [Design]",
               "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\frmAdminSeguridad.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T02:30:27.041Z",
+              "WhenOpened": "2025-03-21T16:42:05.234Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Cls_Seguridad.cs",
-              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Capa_LogicaDeNegocios\\Cls_Seguridad.cs",
-              "RelativeDocumentMoniker": "Capa_LogicaDeNegocios\\Cls_Seguridad.cs",
-              "ToolTip": "D:\\Facturacion_Multicapas\\Capa_LogicaDeNegocios\\Cls_Seguridad.cs",
-              "RelativeToolTip": "Capa_LogicaDeNegocios\\Cls_Seguridad.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAWwCIAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T01:53:02.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "frmEditarEmpleado.cs [Design]",
-              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmEditarEmpleado.cs",
-              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\frmEditarEmpleado.cs",
-              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmEditarEmpleado.cs [Design]",
-              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\frmEditarEmpleado.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T00:20:55.675Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "frmEditarEmpleado.cs",
-              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmEditarEmpleado.cs",
-              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\frmEditarEmpleado.cs",
-              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmEditarEmpleado.cs",
-              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\frmEditarEmpleado.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAWwFoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T00:14:01.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Cls_Empleados.cs",
-              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Capa_LogicaDeNegocios\\Cls_Empleados.cs",
-              "RelativeDocumentMoniker": "Capa_LogicaDeNegocios\\Cls_Empleados.cs",
-              "ToolTip": "D:\\Facturacion_Multicapas\\Capa_LogicaDeNegocios\\Cls_Empleados.cs",
-              "RelativeToolTip": "Capa_LogicaDeNegocios\\Cls_Empleados.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAowHUAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:35:54.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 5,
               "Title": "frmListEmpleados.cs [Design]",
               "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmListEmpleados.cs",
               "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\frmListEmpleados.cs",
               "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmListEmpleados.cs [Design]",
               "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\frmListEmpleados.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T23:32:27.46Z",
+              "WhenOpened": "2025-03-21T15:15:00.92Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "FrmClientes.cs",
-              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\FrmClientes.cs",
-              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\FrmClientes.cs",
-              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\FrmClientes.cs",
-              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\FrmClientes.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA1wA8AAAAyAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "frmListaRoles.cs [Design]",
+              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmListaRoles.cs",
+              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\frmListaRoles.cs",
+              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmListaRoles.cs [Design]",
+              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\frmListaRoles.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T23:05:58.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T15:14:14.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "FrmClientes.cs [Design]",
-              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\FrmClientes.cs",
-              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\FrmClientes.cs",
-              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\FrmClientes.cs [Design]",
-              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\FrmClientes.cs [Design]",
+              "DocumentIndex": 13,
+              "Title": "Cls_Roles.cs",
+              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Capa_LogicaDeNegocios\\Cls_Roles.cs",
+              "RelativeDocumentMoniker": "Capa_LogicaDeNegocios\\Cls_Roles.cs",
+              "ToolTip": "D:\\Facturacion_Multicapas\\Capa_LogicaDeNegocios\\Cls_Roles.cs",
+              "RelativeToolTip": "Capa_LogicaDeNegocios\\Cls_Roles.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwC4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T23:05:59.897Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-21T15:11:59.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Cls_Empleados.cs",
+              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Capa_LogicaDeNegocios\\Cls_Empleados.cs",
+              "RelativeDocumentMoniker": "Capa_LogicaDeNegocios\\Cls_Empleados.cs",
+              "ToolTip": "D:\\Facturacion_Multicapas\\Capa_LogicaDeNegocios\\Cls_Empleados.cs",
+              "RelativeToolTip": "Capa_LogicaDeNegocios\\Cls_Empleados.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T20:35:54.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmRoles.cs",
+              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmRoles.cs",
+              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\frmRoles.cs",
+              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmRoles.cs",
+              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\frmRoles.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwC0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:12:55.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmRoles.cs [Design]",
+              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmRoles.cs",
+              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\frmRoles.cs",
+              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmRoles.cs [Design]",
+              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\frmRoles.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:12:50.602Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "FrmLogin.cs",
-              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\FrmLogin.cs",
-              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\FrmLogin.cs",
-              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\FrmLogin.cs",
-              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\FrmLogin.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADAAAABAAAAAAAAAAA==",
+              "Title": "FrmPrincipal.cs",
+              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\FrmPrincipal.cs",
+              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\FrmPrincipal.cs",
+              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\FrmPrincipal.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAmwG0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:01:36.906Z",
+              "WhenOpened": "2025-03-21T14:00:51.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmPrincipal.cs [Design]",
+              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\FrmPrincipal.cs",
+              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\FrmPrincipal.cs [Design]",
+              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\FrmPrincipal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:00:52.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cls_Seguridad.cs",
+              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Capa_LogicaDeNegocios\\Cls_Seguridad.cs",
+              "RelativeDocumentMoniker": "Capa_LogicaDeNegocios\\Cls_Seguridad.cs",
+              "ToolTip": "D:\\Facturacion_Multicapas\\Capa_LogicaDeNegocios\\Cls_Seguridad.cs",
+              "RelativeToolTip": "Capa_LogicaDeNegocios\\Cls_Seguridad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T01:53:02.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 18,
               "Title": "Acceso_datos.cs",
               "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\Acceso_datos.cs",
               "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\Acceso_datos.cs",
@@ -313,51 +262,36 @@
               "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\Acceso_datos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAB/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T22:46:15.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T22:46:15.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\Program.cs",
-              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\Program.cs",
-              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\Program.cs",
-              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T22:46:09.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Cls_Acceso_Datos.cs",
               "DocumentMoniker": "D:\\Facturacion_Multicapas\\Capa_AccesoDatos\\Cls_Acceso_Datos.cs",
               "RelativeDocumentMoniker": "Capa_AccesoDatos\\Cls_Acceso_Datos.cs",
               "ToolTip": "D:\\Facturacion_Multicapas\\Capa_AccesoDatos\\Cls_Acceso_Datos.cs",
               "RelativeToolTip": "Capa_AccesoDatos\\Cls_Acceso_Datos.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAgwE0AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAIwE0AAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T22:27:01.067Z",
+              "WhenOpened": "2025-03-19T22:27:01.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmListEmpleados.cs",
+              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmListEmpleados.cs",
+              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\frmListEmpleados.cs",
+              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmListEmpleados.cs",
+              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\frmListEmpleados.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAwwDEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:05:48.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "Validar_usuario.cs",
-              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Capa_LogicaDeNegocios\\Validar_usuario.cs",
-              "RelativeDocumentMoniker": "Capa_LogicaDeNegocios\\Validar_usuario.cs",
-              "ToolTip": "D:\\Facturacion_Multicapas\\Capa_LogicaDeNegocios\\Validar_usuario.cs",
-              "RelativeToolTip": "Capa_LogicaDeNegocios\\Validar_usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T22:26:21.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
               "Title": "FrmPrincipal.cs",
               "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\FrmPrincipal.cs",
               "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\FrmPrincipal.cs",
@@ -368,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 10,
               "Title": "FrmPrincipal.cs [Design]",
               "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\FrmPrincipal.cs",
               "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\FrmPrincipal.cs",
@@ -379,83 +313,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "frmEditarCliente.cs [Design]",
-              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmEditarCliente.cs",
-              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\frmEditarCliente.cs",
-              "ToolTip": "D:\\Facturacion_Cliente_Servidor\\Plantilla_Sistema_facturaci\u00F3n\\frmEditarCliente.cs [Design]",
-              "RelativeToolTip": "..\\Facturacion_Cliente_Servidor\\Plantilla_Sistema_facturaci\u00F3n\\frmEditarCliente.cs [Design]",
+              "DocumentIndex": 8,
+              "Title": "frmListaRoles.cs",
+              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmListaRoles.cs",
+              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\frmListaRoles.cs",
+              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmListaRoles.cs",
+              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\frmListaRoles.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T15:19:38.27Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "FrmClientes.cs",
-              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\FrmClientes.cs",
-              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\FrmClientes.cs",
-              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\FrmClientes.cs",
-              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\FrmClientes.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T15:19:25.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "frmAdminSeguridad.cs",
-              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmAdminSeguridad.cs",
-              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\frmAdminSeguridad.cs",
-              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmAdminSeguridad.cs",
-              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\frmAdminSeguridad.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAIAwwGAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T15:16:40.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "frmAdminSeguridad.cs [Design]",
-              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmAdminSeguridad.cs",
-              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\frmAdminSeguridad.cs",
-              "ToolTip": "D:\\Facturacion_Cliente_Servidor\\Plantilla_Sistema_facturaci\u00F3n\\frmAdminSeguridad.cs [Design]",
-              "RelativeToolTip": "..\\Facturacion_Cliente_Servidor\\Plantilla_Sistema_facturaci\u00F3n\\frmAdminSeguridad.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T15:16:38.088Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frmEditarRolEmpleado.cs",
-              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmEditarRolEmpleado.cs",
-              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\frmEditarRolEmpleado.cs",
-              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmEditarRolEmpleado.cs",
-              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\frmEditarRolEmpleado.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAEwEsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T15:07:51.094Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "FrmClientes.cs [Design]",
-              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\FrmClientes.cs",
-              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\FrmClientes.cs",
-              "ToolTip": "D:\\Facturacion_Cliente_Servidor\\Plantilla_Sistema_facturaci\u00F3n\\FrmClientes.cs [Design]",
-              "RelativeToolTip": "..\\Facturacion_Cliente_Servidor\\Plantilla_Sistema_facturaci\u00F3n\\FrmClientes.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T15:11:46.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmListRolEmpleados.cs",
-              "DocumentMoniker": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmListRolEmpleados.cs",
-              "RelativeDocumentMoniker": "Plantilla_Sistema_facturaci\u00F3n\\frmListRolEmpleados.cs",
-              "ToolTip": "D:\\Facturacion_Multicapas\\Plantilla_Sistema_facturaci\u00F3n\\frmListRolEmpleados.cs",
-              "RelativeToolTip": "Plantilla_Sistema_facturaci\u00F3n\\frmListRolEmpleados.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T15:07:08.687Z"
+              "WhenOpened": "2025-03-21T13:57:06.785Z"
             }
           ]
         }

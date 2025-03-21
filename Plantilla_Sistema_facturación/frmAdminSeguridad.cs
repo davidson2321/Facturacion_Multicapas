@@ -20,8 +20,13 @@ namespace Plantilla_Sistema_facturación
             InitializeComponent();
         }
 
+     
         DataTable dt = new DataTable();
         Cls_Seguridad SeguridadEmpleado = new Cls_Seguridad();
+
+
+
+      
         private void llenar_combo_Empleados()
         {
 
@@ -103,37 +108,35 @@ namespace Plantilla_Sistema_facturación
 
         public void Consultar()
         {
-            int IdEmpleado = int.Parse(cboEmpleado.SelectedValue.ToString());
-            dt = SeguridadEmpleado.Consulta_SeguridadEmpleado(IdEmpleado);
+            
+                int IdEmpleado = int.Parse(cboEmpleado.SelectedValue.ToString());
+                dt = SeguridadEmpleado.Consulta_SeguridadEmpleado(IdEmpleado);
 
-            if (dt.Rows.Count > 0)
-            {
-                foreach (DataRow row in dt.Rows)
+                if (dt.Rows.Count > 0)
                 {
-                    txtUsuario.Text = row[0].ToString();
-                    txtPassword.Text = row[1].ToString();
+                    foreach (DataRow row in dt.Rows)
+                    {
+                        txtUsuario.Text = row[0].ToString();
+                        txtPassword.Text = row[1].ToString();
+                    }
                 }
-            }
-            else
-            {
-                txtUsuario.Text = "";
-                txtPassword.Text = "";
-                MessageBox.Show("No hay datos para mostrar");
-            }
+                else
+                {
+                    txtUsuario.Text = "";
+                    txtPassword.Text = "";
+                    MessageBox.Show("No hay datos para mostrar");
+                }
+            
+           
         }
 
-        private void cboEmpleado_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            llenar_combo_Empleados();
-        }
+       
 
-        private void txtUsuario_Click(object sender, EventArgs e)
-        {
-            llenar_combo_Empleados();
-        }
+        
         private void frmAdminSeguridad_Load(object sender, EventArgs e)
         {
             llenar_combo_Empleados();
+        
 
         }
 

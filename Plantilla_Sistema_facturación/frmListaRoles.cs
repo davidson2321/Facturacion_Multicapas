@@ -9,28 +9,36 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MaterialSkin;
 using MaterialSkin.Controls;
+using Capa_LogicaDeNegocios;
 
 namespace Plantilla_Sistema_facturación
 {
-    public partial class frmListRolEmpleados : MaterialForm
+    public partial class frmListaRoles : MaterialForm
     {
-        public frmListRolEmpleados()
+        public frmListaRoles()
         {
             InitializeComponent();
         }
 
         DataTable dt = new DataTable();
-        Acceso_datos Acceso = new Acceso_datos();
+        Cls_Roles rol = new Cls_Roles();
+
         public void llenar_grid()
         {
             dgRolEmpleados.Rows.Clear();
-            string sentencia = "select IdRolEmpleado, StrDescripcion FROM TBLROLES";
-            dt = Acceso.EjecutarComandoDatos(sentencia);
-
-            foreach (DataRow row in dt.Rows)
+            dt = rol.ConsultarRol();
+            if (dt.Rows.Count > 0)
             {
-                dgRolEmpleados.Rows.Add(row[0], row[1]);
+                foreach (DataRow row in dt.Rows)
+                {
+                    dgRolEmpleados.Rows.Add(row[0].ToString(), row[1].ToString());
+                }
             }
+            else {
+                MessageBox.Show("No hay datos para mostrar");
+            }
+
+            
 
         }
         private void frmListRolEmpleados_Load(object sender, EventArgs e)
@@ -40,8 +48,8 @@ namespace Plantilla_Sistema_facturación
 
         private void BtnNuevo_Click(object sender, EventArgs e)
         {
-            frmEditarRolEmpleado rolEmpleado = new frmEditarRolEmpleado();
-            rolEmpleado.IdRolEmpleado = 0;
+            frmRoles rolEmpleado = new frmRoles();
+            rolEmpleado.IdRol = 0;
 
             rolEmpleado.ShowDialog();
             llenar_grid();
@@ -53,17 +61,17 @@ namespace Plantilla_Sistema_facturación
                 int posActual = dgRolEmpleados.CurrentRow.Index;
                 if (MessageBox.Show($"¿Está seguro de borrar el registro? {dgRolEmpleados[1, posActual].Value.ToString()}", "CONFIRMACIÓN", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes) ;
 
-                int IdRolEmpleado = Convert.ToInt32(dgRolEmpleados[0, posActual].Value.ToString());
-                string sentencia = $"DELETE FROM TBLROLES WHERE IdRolEmpleado = {IdRolEmpleado}";
-                string Mensaje = Acceso.EjecutarComando(sentencia);
+                int IdRol = Convert.ToInt32(dgRolEmpleados[0, posActual].Value.ToString());
+                
+                string Mensaje = rol.Eliminar_Rol(IdRol);
                 MessageBox.Show(Mensaje);
 
             }
             if (dgRolEmpleados.Columns[e.ColumnIndex].Name == "btnEditar")
             {
                 int posActual = dgRolEmpleados.CurrentRow.Index;
-                frmEditarRolEmpleado rolEmpleado = new frmEditarRolEmpleado();
-                rolEmpleado.IdRolEmpleado = int.Parse(dgRolEmpleados[0, posActual].Value.ToString());
+                frmRoles rolEmpleado = new frmRoles();
+                rolEmpleado.IdRol = int.Parse(dgRolEmpleados[0, posActual].Value.ToString());
                 rolEmpleado.ShowDialog();
             }
             llenar_grid();
@@ -73,19 +81,29 @@ namespace Plantilla_Sistema_facturación
             if (txtBuscar.Text != "")
             {
                 dgRolEmpleados.Rows.Clear();//limpia el datagrid
-                string sentencia = $"select * FROM TBLROLES WHERE strDescripcion like '%{txtBuscar.Text}%'";
-                dt = Acceso.EjecutarComandoDatos(sentencia);//ejecuta la sentencia
-                foreach (DataRow row in dt.Rows)
+                
+                dt = rol.Filtrar_Rol(txtBuscar.Text);
+                if (dt.Rows.Count > 0)
                 {
-                    dgRolEmpleados.Rows.Add(row[0], row[1]);//agrega los datos al datagrid
-                    txtBuscar.Text = "";//limpia el textbox
+                    foreach (DataRow row in dt.Rows)
+                    {
+                        dgRolEmpleados.Rows.Add(row[0].ToString(), row[1].ToString());//agrega los datos al datagrid
+                        
+                    }
                 }
+                else
+                {
+                    MessageBox.Show("No hay datos para mostrar");
+                    llenar_grid();//
+                }
+
 
             }
             else
             {
                 llenar_grid();
             }
+            txtBuscar.Text = "";//limpia el textbox
         }
         private void BtnSalir_Click(object sender, EventArgs e)
         {

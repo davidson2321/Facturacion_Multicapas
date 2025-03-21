@@ -18,12 +18,12 @@ namespace Capa_LogicaDeNegocios
             string sentencia;
             try
             {
-                sentencia = "SELECT IdEmpleado, strNombre  FROM TBLSEGURIDAD";
+                sentencia = "SELECT IdEmpleado, strNombre  FROM TBLEMPLEADO";
                 DataTable dt = new DataTable();
                 dt = AccesoDatos.EjecutarConsulta(sentencia);
                 return dt;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return null;
             }
@@ -52,7 +52,7 @@ namespace Capa_LogicaDeNegocios
             {
                 List<Cls_parametros> lst = new List<Cls_parametros>();
                 lst.Add(new Cls_parametros("@IdEmpleado", C_IdEmpleado));
-                mensaje = AccesoDatos.Ejecutar_procedimiento("Eliminar_SeguridadEmpleado", lst);
+                mensaje = AccesoDatos.Ejecutar_procedimiento("Eliminar_Seguridad", lst);
             }
             catch (Exception ex)
             {

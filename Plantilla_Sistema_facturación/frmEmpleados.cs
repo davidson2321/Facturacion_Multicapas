@@ -13,9 +13,9 @@ using Capa_LogicaDeNegocios;
 
 namespace Plantilla_Sistema_facturación
 {
-    public partial class frmEditarEmpleado: MaterialForm
+    public partial class frmEmpleados: MaterialForm
     {
-        public frmEditarEmpleado()
+        public frmEmpleados()
         {
             InitializeComponent();
         }
