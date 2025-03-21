@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MaterialSkin;
 using MaterialSkin.Controls;
+using Capa_LogicaDeNegocios;
 
 namespace Plantilla_Sistema_facturación
 {
@@ -22,20 +23,15 @@ namespace Plantilla_Sistema_facturación
         public int IdEmpleado { get; set; }
 
         DataTable dt = new DataTable();//tabla para guardar los datos
-        Acceso_datos Acceso = new Acceso_datos();//objeto para acceder a la base de datos
+        Cls_Empleados empleado = new Cls_Empleados();//instancia de la clase Cls_Empleados
 
 
         private void llenarEmpleado()
         {
-            if (IdEmpleado == 0)
-            {
-                lblTitulo.Text = "INGRESO NUEVO EMPLEADO";
-            }
-            else
-            {
-                string sentencia = $"SELECT e.IdEmpleado, e.strNombre, e.NumDocumento, e.StrDireccion, e.StrTelefono, e.StrEmail, r.StrDescripcion, e.DtmIngreso, e.DtmRetiro, e.strDatosAdicionales FROM TBLEMPLEADO e INNER JOIN TBLROLES r ON e.IdRolEmpleado = r.IdRolEmpleado WHERE e.IdEmpleado = {IdEmpleado}";//consulta para traer los datos del cliente
 
-                dt = Acceso.EjecutarComandoDatos(sentencia);//ejecuta la sentencia
+            dt = empleado.Consulta_Empleado(IdEmpleado);//consulta para traer los datos del empleado
+            if (dt.Rows.Count > 0)
+            {
                 foreach (DataRow row in dt.Rows)
                 {
                     txtIdEmpleado.Text = row[0].ToString();
@@ -44,40 +40,63 @@ namespace Plantilla_Sistema_facturación
                     txtDireccion.Text = row[3].ToString();
                     txtTelefono.Text = row[4].ToString();
                     txtEmail.Text = row[5].ToString();
-                    txtRol.Text = row[6].ToString();
+
+
+                    txtRol.SelectedValue = int.Parse(row[6].ToString());
+                    txtFechaIngreso.Value = Convert.ToDateTime(row[7].ToString());
+                    txtFechaRetiro.Value = Convert.ToDateTime(row[8].ToString());
+                    txtDatosAdicionales.Text = row[9].ToString();
 
                 }
-
-
-
-
             }
+           
         }
+
+        private void llenar_combo()
+        {
+            txtRol.DataSource = empleado.ConsultarRol();
+            txtRol.DisplayMember = "StrDescripcion";
+            txtRol.ValueMember = "IdRolEmpleado";
+        }
+        private void txtRol_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            llenar_combo();
+        }
+
         private void frmEditarEmpleado_Load(object sender, EventArgs e)
         {
-            llenarEmpleado();
+            llenar_combo();
+            if (IdEmpleado == 0)
+            {
+                lblTitulo.Text = "INGRESO NUEVO EMPLEADO";
+            }
+            else
+            {
+                lblTitulo.Text = "EDITAR EMPLEADO";
+                llenarEmpleado();
+            }
         }
 
-        public bool Guardar()
+        public void Guardar()
         {
-            Boolean actualizado = false;
+            string mensaje = "";
             if (validar())
             {
-                try
-                {
-                    Acceso_datos Acceso = new Acceso_datos();
-                    string sentencia = $"Exec [actualizar_Empleado] {IdEmpleado},'{txtNombre.Text}',{TxtDocumento.Text} ,'{txtDireccion.Text}','{txtTelefono.Text}', '{txtEmail.Text}','{txtRol.Text}','{DateTime.Now.ToShortDateString()}'";
-                    MessageBox.Show(Acceso.EjecutarComando(sentencia));
-                    actualizado = true;
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("falló inserción: " + ex);
-                    actualizado = false;
-                }
-            }
-            return actualizado;
+                empleado.C_IdEmpleado = IdEmpleado;
+                empleado.C_StrNombre = txtNombre.Text;
+                empleado.C_NumDocumento = TxtDocumento.Text; // Changed from double to string
+                empleado.C_StrDireccion = txtDireccion.Text;
+                empleado.C_StrTelefono = txtTelefono.Text;
+                empleado.C_StrEmail = txtEmail.Text;
+                empleado.C_IdRolEmpleado = txtRol.SelectedValue.ToString(); // Changed from int to string
+                empleado.C_DtmIngreso = txtFechaIngreso.Value.ToString("yyyy-MM-dd");
+                empleado.C_DtmRetiro = txtFechaRetiro.Value.ToString("yyyy-MM-dd");
+                empleado.C_strDatosAdicionales = txtDatosAdicionales.Text;
+                empleado.C_StrUsuarioModifico = "Admin";
+                mensaje = empleado.ActualizarEmpleado();
 
+                MessageBox.Show(mensaje);
+            }
         }
 
         //FUNCIÓN QE PERMITE VALIDAR LOS CAMPOS DEL FORMULARIO
@@ -127,9 +146,16 @@ namespace Plantilla_Sistema_facturación
         }
         private void BtnSalir_Click(object sender, EventArgs e)
         {
-            this.Close();
+            DialogResult Rta;
+            Rta = MessageBox.Show("Desea salir de la edicion ?", "MENSAJE DE ADVERTENCIA", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (Rta == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
-        private ErrorProvider MensajeError = new ErrorProvider();
+       
 
+
+       
     }
 }

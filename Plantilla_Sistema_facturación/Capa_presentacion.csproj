@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C037FC8D-1498-4980-8B9F-206C2F481F29}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Plantilla_Sistema_facturación</RootNamespace>
+    <AssemblyName>Plantilla_Sistema_facturación</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acceso_datos.cs" />
+    <Compile Include="FmrPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminSeguridad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminSeguridad.Designer.cs">
+      <DependentUpon>frmAdminSeguridad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditarRolEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditarRolEmpleado.Designer.cs">
+      <DependentUpon>frmEditarRolEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAyuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAyuda.Designer.cs">
+      <DependentUpon>frmAyuda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCategoriaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCategoriaProductos.Designer.cs">
+      <DependentUpon>frmCategoriaProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmClientes.Designer.cs">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditarCategoriaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditarCategoriaProducto.Designer.cs">
+      <DependentUpon>frmEditarCategoriaProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditarCliente.Designer.cs">
+      <DependentUpon>frmEditarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditarEmpleado.Designer.cs">
+      <DependentUpon>frmEditarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditarProducto.Designer.cs">
+      <DependentUpon>frmEditarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditarUsuarioSeguridad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditarUsuarioSeguridad.Designer.cs">
+      <DependentUpon>frmEditarUsuarioSeguridad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFacturas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFacturas.Designer.cs">
+      <DependentUpon>frmFacturas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInformes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInformes.Designer.cs">
+      <DependentUpon>frmInformes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListAdminSeguridad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListAdminSeguridad.Designer.cs">
+      <DependentUpon>frmListAdminSeguridad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListEmpleados.Designer.cs">
+      <DependentUpon>frmListEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListFacturas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListFacturas.Designer.cs">
+      <DependentUpon>frmListFacturas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListRolEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListRolEmpleados.Designer.cs">
+      <DependentUpon>frmListRolEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductos.Designer.cs">
+      <DependentUpon>FrmProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRolEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRolEmpleado.Designer.cs">
+      <DependentUpon>frmRolEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FmrPrincipal.resx">
+      <DependentUpon>FmrPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminSeguridad.resx">
+      <DependentUpon>frmAdminSeguridad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarRolEmpleado.resx">
+      <DependentUpon>frmEditarRolEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAyuda.resx">
+      <DependentUpon>frmAyuda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCategoriaProductos.resx">
+      <DependentUpon>frmCategoriaProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmClientes.resx">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarCategoriaProducto.resx">
+      <DependentUpon>frmEditarCategoriaProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarCliente.resx">
+      <DependentUpon>frmEditarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarEmpleado.resx">
+      <DependentUpon>frmEditarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarProducto.resx">
+      <DependentUpon>frmEditarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarUsuarioSeguridad.resx">
+      <DependentUpon>frmEditarUsuarioSeguridad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFacturas.resx">
+      <DependentUpon>frmFacturas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInformes.resx">
+      <DependentUpon>frmInformes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListAdminSeguridad.resx">
+      <DependentUpon>frmListAdminSeguridad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListEmpleados.resx">
+      <DependentUpon>frmListEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListFacturas.resx">
+      <DependentUpon>frmListFacturas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListRolEmpleados.resx">
+      <DependentUpon>frmListRolEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductos.resx">
+      <DependentUpon>FrmProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRolEmpleado.resx">
+      <DependentUpon>frmRolEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Capa_LogicaDeNegocios\Capa_LogicaDeNegocios.csproj">
+      <Project>{7927ae45-0e38-4cd9-993a-5d5ffd3aae6b}</Project>
+      <Name>Capa_LogicaDeNegocios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

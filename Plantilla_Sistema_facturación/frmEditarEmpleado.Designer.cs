@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.BtnSalir = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btnActualizar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.txtEmail = new MaterialSkin.Controls.MaterialSingleLineTextField();
@@ -45,6 +46,8 @@
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.txtDatosAdicionales = new System.Windows.Forms.RichTextBox();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
+            this.MensajeError = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.MensajeError)).BeginInit();
             this.SuspendLayout();
             // 
             // BtnSalir
@@ -171,6 +174,7 @@
             this.txtRol.Name = "txtRol";
             this.txtRol.Size = new System.Drawing.Size(188, 24);
             this.txtRol.TabIndex = 18;
+            this.txtRol.SelectedIndexChanged += new System.EventHandler(this.txtRol_SelectedIndexChanged);
             // 
             // materialLabel1
             // 
@@ -191,6 +195,7 @@
             this.txtFechaIngreso.Name = "txtFechaIngreso";
             this.txtFechaIngreso.Size = new System.Drawing.Size(157, 22);
             this.txtFechaIngreso.TabIndex = 20;
+            this.txtFechaIngreso.Value = new System.DateTime(2025, 3, 20, 19, 47, 15, 0);
             // 
             // txtFechaRetiro
             // 
@@ -246,6 +251,10 @@
             this.materialLabel4.TabIndex = 25;
             this.materialLabel4.Text = "Datos Adicionales";
             // 
+            // MensajeError
+            // 
+            this.MensajeError.ContainerControl = this;
+            // 
             // frmEditarEmpleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -271,6 +280,7 @@
             this.Name = "frmEditarEmpleado";
             this.Text = "frmEditarEmpleado";
             this.Load += new System.EventHandler(this.frmEditarEmpleado_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.MensajeError)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -295,5 +305,6 @@
         private MaterialSkin.Controls.MaterialLabel materialLabel3;
         private System.Windows.Forms.RichTextBox txtDatosAdicionales;
         private MaterialSkin.Controls.MaterialLabel materialLabel4;
+        private System.Windows.Forms.ErrorProvider MensajeError;
     }
 }

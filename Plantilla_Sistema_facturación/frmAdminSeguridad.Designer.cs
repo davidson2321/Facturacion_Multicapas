@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.BtnSalir = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btnActualizar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.txtPassword = new MaterialSkin.Controls.MaterialSingleLineTextField();
@@ -36,8 +37,10 @@
             this.lblTitulo = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.cboEmpleado = new System.Windows.Forms.ComboBox();
-            this.BtnNuevo = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.BtnConsultar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.BtnEliminar = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.MensajeError = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.MensajeError)).BeginInit();
             this.SuspendLayout();
             // 
             // BtnSalir
@@ -131,18 +134,18 @@
             this.cboEmpleado.TabIndex = 19;
             this.cboEmpleado.SelectedIndexChanged += new System.EventHandler(this.cboEmpleado_SelectedIndexChanged);
             // 
-            // BtnNuevo
+            // BtnConsultar
             // 
-            this.BtnNuevo.Depth = 0;
-            this.BtnNuevo.Location = new System.Drawing.Point(607, 137);
-            this.BtnNuevo.MouseState = MaterialSkin.MouseState.HOVER;
-            this.BtnNuevo.Name = "BtnNuevo";
-            this.BtnNuevo.Primary = true;
-            this.BtnNuevo.Size = new System.Drawing.Size(165, 44);
-            this.BtnNuevo.TabIndex = 20;
-            this.BtnNuevo.Text = "Nuevo";
-            this.BtnNuevo.UseVisualStyleBackColor = true;
-            this.BtnNuevo.Click += new System.EventHandler(this.BtnNuevo_Click);
+            this.BtnConsultar.Depth = 0;
+            this.BtnConsultar.Location = new System.Drawing.Point(607, 137);
+            this.BtnConsultar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.BtnConsultar.Name = "BtnConsultar";
+            this.BtnConsultar.Primary = true;
+            this.BtnConsultar.Size = new System.Drawing.Size(165, 44);
+            this.BtnConsultar.TabIndex = 20;
+            this.BtnConsultar.Text = "Consultar";
+            this.BtnConsultar.UseVisualStyleBackColor = true;
+            this.BtnConsultar.Click += new System.EventHandler(this.BtnConsultar_Click);
             // 
             // BtnEliminar
             // 
@@ -157,13 +160,17 @@
             this.BtnEliminar.UseVisualStyleBackColor = true;
             this.BtnEliminar.Click += new System.EventHandler(this.BtnEliminar_Click);
             // 
+            // MensajeError
+            // 
+            this.MensajeError.ContainerControl = this;
+            // 
             // frmAdminSeguridad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.BtnEliminar);
-            this.Controls.Add(this.BtnNuevo);
+            this.Controls.Add(this.BtnConsultar);
             this.Controls.Add(this.cboEmpleado);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnSalir);
@@ -175,6 +182,7 @@
             this.Name = "frmAdminSeguridad";
             this.Text = "frmAdminSeguridad";
             this.Load += new System.EventHandler(this.frmAdminSeguridad_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.MensajeError)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -190,7 +198,8 @@
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cboEmpleado;
-        private MaterialSkin.Controls.MaterialRaisedButton BtnNuevo;
+        private MaterialSkin.Controls.MaterialRaisedButton BtnConsultar;
         private MaterialSkin.Controls.MaterialRaisedButton BtnEliminar;
+        private System.Windows.Forms.ErrorProvider MensajeError;
     }
 }

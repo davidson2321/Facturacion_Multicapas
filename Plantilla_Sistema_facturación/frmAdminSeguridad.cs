@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MaterialSkin;
 using MaterialSkin.Controls;
+using Capa_LogicaDeNegocios;
 
 namespace Plantilla_Sistema_facturación
 {
@@ -19,15 +20,14 @@ namespace Plantilla_Sistema_facturación
             InitializeComponent();
         }
 
+        DataTable dt = new DataTable();
+        Cls_Seguridad SeguridadEmpleado = new Cls_Seguridad();
         private void llenar_combo_Empleados()
         {
-            DataTable dt = new DataTable();
-            Acceso_datos Acceso = new Acceso_datos(); // creamos un objeto con la clase Acceso_datos
-            dt = Acceso.cargartabla("TBLEMPLEADO", "");
-            cboEmpleado.DataSource = dt;
-            cboEmpleado.DisplayMember = "strNombre";
+
+            cboEmpleado.DataSource = SeguridadEmpleado.ConsultarEmpleados();
+            cboEmpleado.DisplayMember = "StrNombre";
             cboEmpleado.ValueMember = "IdEmpleado";
-            Acceso.CerrarBd();
         }
         private Boolean validar()
         {
@@ -63,54 +63,62 @@ namespace Plantilla_Sistema_facturación
             }
         }
         // función que permite guardar los datos de ingreso a un usuario
-        public bool Guardar()
+        public void Guardar()
         {
-            Boolean actualizado = false;
+            string mensaje = "";
             if (validar())
             {
-                try
-                {
-                    Acceso_datos Acceso = new Acceso_datos();
-                    string sentencia = $"Exec actualizar_Seguridad '{Convert.ToInt32(cboEmpleado.SelectedValue)}','{txtUsuario.Text}','{txtPassword.Text}','{DateTime.Now}','Javier'";
-                MessageBox.Show(Acceso.EjecutarComando(sentencia));
-                    actualizado = true;
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("falló inserción: " + ex);
-                    actualizado = false;
-                }
+                SeguridadEmpleado.C_IdEmpleado = int.Parse(cboEmpleado.SelectedValue.ToString());
+                SeguridadEmpleado.C_StrUsuario = txtUsuario.Text;
+                SeguridadEmpleado.C_StrClave = txtPassword.Text;
+                SeguridadEmpleado.C_StrUsuarioModifico = "Javier";
+                mensaje = SeguridadEmpleado.ActualizarSeguridadEmpleado();
+                MessageBox.Show(mensaje);
+                  
             }
-            return actualizado;
+            txtPassword.Text = "";
+            txtUsuario.Text = "";
         }
         // función que permite eliminar los datos de ingreso de un usuario
         public void Eliminar()
         {
-            Acceso_datos Acceso = new Acceso_datos();
-            string sentencia = $"Exec Eliminar_Seguridad '{Convert.ToInt32(cboEmpleado.SelectedValue)}'";
-            MessageBox.Show(Acceso.EjecutarComando(sentencia));
-            txtUsuario.Text = "";
-            txtPassword.Text = "";
+            if (MessageBox.Show($"ESTA SEGURO DE BORRAR EL REGISTRO DE:  \n {cboEmpleado.Text }", "CONFIRMACION", MessageBoxButtons.YesNo, MessageBoxIcon.Question)== DialogResult.Yes)
+            {
+                SeguridadEmpleado.C_IdEmpleado = int.Parse(cboEmpleado.SelectedValue.ToString());
+
+                string mensaje = SeguridadEmpleado.EliminarSeguridadEmpleado();
+                if (mensaje != "")
+                {
+                    MessageBox.Show(mensaje);
+                }
+                else
+                {
+                    MessageBox.Show($"BORRADO EL REGISTRO");
+                    txtPassword.Text = "";
+                    txtUsuario.Text = "";
+                }
+            }
         }
 
 
         public void Consultar()
         {
-            DataTable dt = new DataTable();
-            string sentencia = "select StrUsuario,StrClave from TBLSEGURIDAD where IdEmpleado=" +
-           cboEmpleado.SelectedValue.ToString();
-            Acceso_datos Acceso = new Acceso_datos(); // creamos un objeto con la clase Acceso_datos
-            dt = Acceso.EjecutarComandoDatos(sentencia);
+            int IdEmpleado = int.Parse(cboEmpleado.SelectedValue.ToString());
+            dt = SeguridadEmpleado.Consulta_SeguridadEmpleado(IdEmpleado);
+
             if (dt.Rows.Count > 0)
             {
-                txtUsuario.Text = dt.Rows[0]["StrUsuario"].ToString();
-                txtPassword.Text = dt.Rows[0]["StrClave"].ToString();
+                foreach (DataRow row in dt.Rows)
+                {
+                    txtUsuario.Text = row[0].ToString();
+                    txtPassword.Text = row[1].ToString();
+                }
             }
             else
             {
-                MessageBox.Show("El usuario no dispone de datos de ingreso");
                 txtUsuario.Text = "";
                 txtPassword.Text = "";
+                MessageBox.Show("No hay datos para mostrar");
             }
         }
 
@@ -140,10 +148,11 @@ namespace Plantilla_Sistema_facturación
 
         }
 
-        private void BtnNuevo_Click(object sender, EventArgs e)
+        private void BtnConsultar_Click(object sender, EventArgs e)
         {
-
+            Consultar();
         }
+
 
         private void BtnSalir_Click(object sender, EventArgs e)
         {
@@ -158,7 +167,6 @@ namespace Plantilla_Sistema_facturación
 
         }
 
-        private ErrorProvider MensajeError = new ErrorProvider();
 
       
     }

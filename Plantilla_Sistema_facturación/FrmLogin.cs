@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using Capa_LogicaDeNegocios;
+
 namespace Plantilla_Sistema_facturación
 {
     public partial class frmLogin : Form
@@ -37,21 +39,21 @@ namespace Plantilla_Sistema_facturación
 
         }
 
-        private void btnCancelar_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
+      
 
         private void btnValidar_Click(object sender, EventArgs e)
         {
-            string Respuesta = "";
+     
             if (TxtUsuario.Text != "" && TxtPasword.Text != string.Empty)
             {
-                Acceso_datos Acceso = new Acceso_datos();
-                Respuesta = Acceso.ValidarUsuario(TxtUsuario.Text, TxtPasword.Text);
-                if (Respuesta != "")
+               Validar_usuario Obj_validar = new Validar_usuario();
+
+                Obj_validar.C_StrUsuario = TxtUsuario.Text;
+                Obj_validar.C_StrClave = TxtPasword.Text;
+                Obj_validar.ValidarUsuario();
+                if (Obj_validar.C_IdEmpleado !=0)
                 {
-                    MessageBox.Show("Bienvenido : " + Respuesta);
+                    MessageBox.Show("Datos de verificacion Validos" );
                     FrmPrincipal frmppal = new FrmPrincipal();
                     this.Hide();
                     frmppal.Show();
@@ -73,6 +75,11 @@ namespace Plantilla_Sistema_facturación
         private void TxtUsuario_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

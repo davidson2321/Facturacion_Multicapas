@@ -1,0 +1,9 @@
+D:\Facturacion_Multicapas\Capa_LogicaDeNegocios\bin\Debug\Capa_LogicaDeNegocios.dll
+D:\Facturacion_Multicapas\Capa_LogicaDeNegocios\bin\Debug\Capa_LogicaDeNegocios.pdb
+D:\Facturacion_Multicapas\Capa_LogicaDeNegocios\bin\Debug\Capa_AccesoDatos.dll
+D:\Facturacion_Multicapas\Capa_LogicaDeNegocios\bin\Debug\Capa_AccesoDatos.pdb
+D:\Facturacion_Multicapas\Capa_LogicaDeNegocios\obj\Debug\Capa_LogicaDeNegocios.csproj.AssemblyReference.cache
+D:\Facturacion_Multicapas\Capa_LogicaDeNegocios\obj\Debug\Capa_LogicaDeNegocios.csproj.CoreCompileInputs.cache
+D:\Facturacion_Multicapas\Capa_LogicaDeNegocios\obj\Debug\Capa_Log.592EBA8F.Up2Date
+D:\Facturacion_Multicapas\Capa_LogicaDeNegocios\obj\Debug\Capa_LogicaDeNegocios.dll
+D:\Facturacion_Multicapas\Capa_LogicaDeNegocios\obj\Debug\Capa_LogicaDeNegocios.pdb
