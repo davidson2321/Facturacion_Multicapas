@@ -49,7 +49,7 @@ namespace Plantilla_Sistema_facturación
         private void BtnNuevo_Click(object sender, EventArgs e)
         {
             frmRoles rolEmpleado = new frmRoles();
-            rolEmpleado.IdRol = 0;
+            rolEmpleado.IdRolEmpleado = 0;
 
             rolEmpleado.ShowDialog();
             llenar_grid();
@@ -61,9 +61,9 @@ namespace Plantilla_Sistema_facturación
                 int posActual = dgRolEmpleados.CurrentRow.Index;
                 if (MessageBox.Show($"¿Está seguro de borrar el registro? {dgRolEmpleados[1, posActual].Value.ToString()}", "CONFIRMACIÓN", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes) ;
 
-                int IdRol = Convert.ToInt32(dgRolEmpleados[0, posActual].Value.ToString());
+                int IdRolEmpleado = Convert.ToInt32(dgRolEmpleados[0, posActual].Value.ToString());
                 
-                string Mensaje = rol.Eliminar_Rol(IdRol);
+                string Mensaje = rol.Eliminar_Rol(IdRolEmpleado);
                 MessageBox.Show(Mensaje);
 
             }
@@ -71,7 +71,7 @@ namespace Plantilla_Sistema_facturación
             {
                 int posActual = dgRolEmpleados.CurrentRow.Index;
                 frmRoles rolEmpleado = new frmRoles();
-                rolEmpleado.IdRol = int.Parse(dgRolEmpleados[0, posActual].Value.ToString());
+                rolEmpleado.IdRolEmpleado = int.Parse(dgRolEmpleados[0, posActual].Value.ToString());
                 rolEmpleado.ShowDialog();
             }
             llenar_grid();

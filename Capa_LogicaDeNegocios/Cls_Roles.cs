@@ -10,7 +10,7 @@ namespace Capa_LogicaDeNegocios
 {
    public  class Cls_Roles
     {
-        public int C_IdRol { get; set; }
+        public int C_IdRolEmpleado { get; set; }
         public string C_StrNombreRol { get; set; }
 
         Cls_Acceso_Datos AccesoDatos = new Cls_Acceso_Datos();
@@ -31,12 +31,12 @@ namespace Capa_LogicaDeNegocios
             }
         }
 
-        public DataTable Consultar_Rol(int IdRol)//metodo para consultar un rol
+        public DataTable Consultar_Rol(int IdRolEmpleado)//metodo para consultar un rol
         {
             string sentencia = "";//variable para almacenar la sentencia
             try//intenta ejecutar el codigo
             {
-                sentencia = $"SELECT * FROM TBLROLES WHERE  IdRol={IdRol}";//consulta para consultar un rol
+                sentencia = $"SELECT * FROM TBLROLES WHERE  IdRolEmpleado={IdRolEmpleado}";//consulta para consultar un rol
                 DataTable dt = new DataTable();//crea un objeto de la clase DataTable
                 dt = AccesoDatos.EjecutarConsulta(sentencia);//ejecuta la consulta
                 return dt;//retorna el objeto
@@ -63,13 +63,13 @@ namespace Capa_LogicaDeNegocios
             }
         }
 
-        public string Eliminar_Rol(int IdRol)//metodo para eliminar un rol
+        public string Eliminar_Rol(int IdRolEmpleado)//metodo para eliminar un rol
         {
             string mensaje = "";//variable para almacenar el mensaje
             try
             {
                 List<Cls_parametros> lst = new List<Cls_parametros>();//crea una lista de la clase Cls_parametros
-                lst.Add(new Cls_parametros("@IdRol", IdRol));//agrega un parametro a la lista
+                lst.Add(new Cls_parametros("@IdRolEmpleado", IdRolEmpleado));//agrega un parametro a la lista
                 mensaje = AccesoDatos.Ejecutar_procedimiento("Eliminar_Rol", lst);//ejecuta el procedimiento almacenado
             }
             catch (Exception ex)//  si hay error retorna el mensaje de error
@@ -85,7 +85,7 @@ namespace Capa_LogicaDeNegocios
             try//intenta ejecutar el codigo
             {
                 List<Cls_parametros> lst = new List<Cls_parametros>();//crea una lista de la clase Cls_parametros
-                lst.Add(new Cls_parametros("@IdRol", C_IdRol));//agrega un parametro a la lista
+                lst.Add(new Cls_parametros("@IdRolEmpleado", C_IdRolEmpleado));//agrega un parametro a la lista
                 lst.Add(new Cls_parametros("@StrNombreRol", C_StrNombreRol));//agrega un parametro a la lista
                 mensaje = AccesoDatos.Ejecutar_procedimiento("Actualizar_Rol", lst);//ejecuta el procedimiento almacenado
             }

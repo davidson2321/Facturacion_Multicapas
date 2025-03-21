@@ -18,7 +18,7 @@ namespace Plantilla_Sistema_facturación
             InitializeComponent();
         }
 
-        public int IdRol { get; set; }
+        public int IdRolEmpleado { get; set; }
 
 
         DataTable dt = new DataTable();//tabla para guardar los datos
@@ -26,14 +26,15 @@ namespace Plantilla_Sistema_facturación
 
         private void llenarRol()
         {
-            
-            dt = rol.Consultar_Rol(IdRol); // consulta para traer los datos del empleado
-            if ( dt.Rows.Count > 0)
+            dt = rol.Consultar_Rol(IdRolEmpleado); // consulta para traer los datos del empleado
+            if (dt != null && dt.Rows.Count > 0)
             {
                 foreach (DataRow row in dt.Rows)
                 {
                     txtIdCliente.Text = row[0].ToString();
                     txtDescripcion.Text = row[1].ToString();
+
+
                 }
             }
             else
@@ -53,7 +54,7 @@ namespace Plantilla_Sistema_facturación
             string mensaje = "";
             if (validar())
             {
-                rol.C_IdRol = IdRol;
+                rol.C_IdRolEmpleado = IdRolEmpleado;
                 rol.C_StrNombreRol = txtDescripcion.Text;
 
                 mensaje = rol.ActualizarRol();
